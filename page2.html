@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #00141e;">
+    
+<div style="text-align: center;">
+    <h4 style="color: white; font-size: 25px;">რეგისტრაცია</h4> 
+    <h5 style="color: white; font-size: 18px;">პირადი ინფორმაცია</h5>
+ </div>
+    
+ <form style="text-align: center;">
+    <label for="name"></label>
+    <input type="text"  name="Name" id="Name" placeholder="სახელი" required> <br> <br>
+    <label for="surname"></label>
+    <input type="text"  name="surname" id="surname" placeholder="გვარი" required> <br> <br>
+
+    <label style="color: white;" for="Country">ქვეყანა</label>
+    <select name="Country" id="Country" required>
+        <option value="GE">საქართველო</option>
+        <option value="AU">ავსტრალია</option>
+        <option value="AT">ავსტრია</option>
+        <option value="AF">ავღანეთი</option>
+        <option value="AZ">აზერბაიჯანი</option>
+        <option value="AL">ალბანეთი</option>
+        <option value="DZ">ალჟირი</option>
+        <option value="US">ამერიკის შეერთებული შტატები</option>
+        <option value="AO">ანგოლა</option>
+        <option value="AD">ანდორა</option>
+        <option value="AG">ანტიგუა და ბარბუდა</option>
+        <option value="AE">არაბული გაერთიანებული საემიროები</option>
+        <option value="AR">არგენტინა</option>
+        <option value="NZ">ახალი ზელანდია</option>
+        <option value="BD">ბანგლადეში</option>
+        <option value="BB">ბარბადოსი</option>
+        <option value="BS">ბაჰამის კუნძულები</option>
+        <option value="BH">ბაჰრეინი</option>
+        <option value="BE">ბელგია</option>
+        <option value="BZ">ბელიზი</option>
+        <option value="BY">ბელორუსი</option>
+        <option value="BJ">ბენინი</option>
+        <option value="BO">ბოლივია</option>
+        <option value="BA">ბოსნია და ჰერცოგოვინა</option>
+        <option value="BW">ბოტსვანა</option>
+        <option value="BR">ბრაზილია</option>
+        <option value="BN">ბრუნეი დარუსალამი</option>
+        <option value="BG">ბულგარეთი</option>
+        <option value="BF">ბურკინა ფასო</option>
+        <option value="BI">ბურუნდი</option>
+        <option value="BT">ბუტანი</option>
+        <option value="GA">გაბონი</option>
+        <option value="GB">გაერთიანებული სამეფო</option>
+        <option value="GY">გაიანა</option>
+        <option value="GM">გამბია</option>
+        <option value="GH">განა</option>
+        <option value="DE">გერმანია</option>
+        <option value="GT">გვატემალა</option>
+        <option value="GN">გვინეა</option>
+        <option value="GW">გვინეა-ბისაუ</option>
+        <option value="GD">გრენადა</option>
+        <option value="DK">დანია</option>
+        <option value="DM">დომინიკა</option>
+        <option value="DO">დომინიკის რესპუბლიკა</option>
+        <option value="EG">ეგვიპტე</option>
+        <option value="ET">ეთიოპია</option>
+        <option value="EC">ეკვადორი</option>
+        <option value="GQ">ეკვატორული გვინეა</option>
+        <option value="IQ">ერაყი</option>
+        <option value="ER">ერიტრეა</option>
+        <option value="SZ">ესვატინი</option>
+        <option value="ES">ესპანეთი</option>
+        <option value="EE">ესტონეთი</option>
+        <option value="VU">ვანუატუ</option>
+        <option value="VE">ვენესუელა</option>
+        <option value="VN">ვიეტნამი</option>
+        <option value="ZM">ზამბია</option>
+        <option value="ZW">ზიმბაბვე</option>
+        <option value="TR">თურქეთი</option>
+        <option value="TM">თურქმენეთი</option>
+        <option value="JM">იამაიკა</option>
+        <option value="JP">იაპონია</option>
+        <option value="YE">იემენი</option>
+        <option value="IN">ინდოეთი</option>
+        <option value="ID">ინდონეზია</option>
+        <option value="JO">იორდანია</option>
+        <option value="IR">ირანი</option>
+        <option value="IE">ირლანდია</option>
+        <option value="IS">ისლანდია</option>
+        <option value="IL">ისრაელი</option>
+        <option value="IT">იტალია</option>
+        <option value="CV">კაბო ვერდე</option>
+        <option value="KH">კამბოჯა</option>
+        <option value="CM">კამერუნი</option>
+        <option value="CA">კანადა</option>
+        <option value="QA">კატარი</option>
+        <option value="KE">კენიაში</option>
+        <option value="CY">კვიპროსი</option>
+        <option value="KI">კირიბატი</option>
+        <option value="CO">კოლუმბია</option>
+        <option value="KM">კომორო</option>
+        <option value="CG">კონგო</option>
+        <option value="CD">კონგო (დემოკრატიული რესპუბლიკა)</option>
+        <option value="CR">კოსტა - რიკა</option>
+        <option value="CI">კოტ დივუარი</option>
+        <option value="CU">კუბა</option>
+        <option value="LA">ლაოსი</option>
+        <option value="LV">ლატვია</option>
+        <option value="LS">ლესოტო</option>
+        <option value="LB">ლიბანი</option>
+        <option value="LR">ლიბერია</option>
+        <option value="LY">ლიბია</option>
+        <option value="LT">ლიტვა</option>
+        <option value="LI">ლიხტენშტეინი</option>
+        <option value="MG">მადაგასკარი</option>
+        <option value="MU">მავრიკი</option>
+        <option value="MR">მავრიტანია</option>
+        <option value="MW">მალავი</option>
+        <option value="MY">მალაიზია</option>
+        <option value="MV">მალდივები</option>
+        <option value="ML">მალი</option>
+        <option value="MT">მალტა</option>
+        <option value="MA">მაროკო</option>
+        <option value="MH">მარშალის კუნძულები</option>
+        <option value="MX">მექსიკა</option>
+        <option value="MM">მიანმარ</option>
+        <option value="FM">მიკრონეზია</option>
+        <option value="MZ">მოზამბიკი</option>
+        <option value="MD">მოლდოვა</option>
+        <option value="MC">მონაკო</option>
+        <option value="MN">მონღოლეთი</option>
+    </select> <br> <br>
+
+    <label style="color: white;" for="eth">მოქალაქეობა</label>
+    <select name="eth" id="eth" required>
+        <option value="GE">საქართველო</option>
+        <option value="AU">ავსტრალია</option>
+        <option value="AT">ავსტრია</option>
+        <option value="AF">ავღანეთი</option>
+        <option value="AZ">აზერბაიჯანი</option>
+        <option value="AL">ალბანეთი</option>
+        <option value="DZ">ალჟირი</option>
+        <option value="US">ამერიკის შეერთებული შტატები</option>
+        <option value="AO">ანგოლა</option>
+        <option value="AD">ანდორა</option>
+        <option value="AG">ანტიგუა და ბარბუდა</option>
+        <option value="AE">არაბული გაერთიანებული საემიროები</option>
+        <option value="AR">არგენტინა</option>
+        <option value="NZ">ახალი ზელანდია</option>
+        <option value="BD">ბანგლადეში</option>
+        <option value="BB">ბარბადოსი</option>
+        <option value="BS">ბაჰამის კუნძულები</option>
+        <option value="BH">ბაჰრეინი</option>
+        <option value="BE">ბელგია</option>
+        <option value="BZ">ბელიზი</option>
+        <option value="BY">ბელორუსი</option>
+        <option value="BJ">ბენინი</option>
+        <option value="BO">ბოლივია</option>
+        <option value="BA">ბოსნია და ჰერცოგოვინა</option>
+        <option value="BW">ბოტსვანა</option>
+        <option value="BR">ბრაზილია</option>
+        <option value="BN">ბრუნეი დარუსალამი</option>
+        <option value="BG">ბულგარეთი</option>
+        <option value="BF">ბურკინა ფასო</option>
+        <option value="BI">ბურუნდი</option>
+        <option value="BT">ბუტანი</option>
+        <option value="GA">გაბონი</option>
+        <option value="GB">გაერთიანებული სამეფო</option>
+        <option value="GY">გაიანა</option>
+        <option value="GM">გამბია</option>
+        <option value="GH">განა</option>
+        <option value="DE">გერმანია</option>
+        <option value="GT">გვატემალა</option>
+        <option value="GN">გვინეა</option>
+        <option value="GW">გვინეა-ბისაუ</option>
+        <option value="GD">გრენადა</option>
+        <option value="DK">დანია</option>
+        <option value="DM">დომინიკა</option>
+        <option value="DO">დომინიკის რესპუბლიკა</option>
+        <option value="EG">ეგვიპტე</option>
+        <option value="ET">ეთიოპია</option>
+        <option value="EC">ეკვადორი</option>
+        <option value="GQ">ეკვატორული გვინეა</option>
+        <option value="IQ">ერაყი</option>
+        <option value="ER">ერიტრეა</option>
+        <option value="SZ">ესვატინი</option>
+        <option value="ES">ესპანეთი</option>
+        <option value="EE">ესტონეთი</option>
+        <option value="VU">ვანუატუ</option>
+        <option value="VE">ვენესუელა</option>
+        <option value="VN">ვიეტნამი</option>
+        <option value="ZM">ზამბია</option>
+        <option value="ZW">ზიმბაბვე</option>
+        <option value="TR">თურქეთი</option>
+        <option value="TM">თურქმენეთი</option>
+        <option value="JM">იამაიკა</option>
+        <option value="JP">იაპონია</option>
+        <option value="YE">იემენი</option>
+        <option value="IN">ინდოეთი</option>
+        <option value="ID">ინდონეზია</option>
+        <option value="JO">იორდანია</option>
+        <option value="IR">ირანი</option>
+        <option value="IE">ირლანდია</option>
+        <option value="IS">ისლანდია</option>
+        <option value="IL">ისრაელი</option>
+        <option value="IT">იტალია</option>
+        <option value="CV">კაბო ვერდე</option>
+        <option value="KH">კამბოჯა</option>
+        <option value="CM">კამერუნი</option>
+        <option value="CA">კანადა</option>
+        <option value="QA">კატარი</option>
+        <option value="KE">კენიაში</option>
+        <option value="CY">კვიპროსი</option>
+        <option value="KI">კირიბატი</option>
+        <option value="CO">კოლუმბია</option>
+        <option value="KM">კომორო</option>
+        <option value="CG">კონგო</option>
+        <option value="CD">კონგო (დემოკრატიული რესპუბლიკა)</option>
+        <option value="CR">კოსტა - რიკა</option>
+        <option value="CI">კოტ დივუარი</option>
+        <option value="CU">კუბა</option>
+        <option value="LA">ლაოსი</option>
+        <option value="LV">ლატვია</option>
+        <option value="LS">ლესოტო</option>
+        <option value="LB">ლიბანი</option>
+        <option value="LR">ლიბერია</option>
+        <option value="LY">ლიბია</option>
+        <option value="LT">ლიტვა</option>
+        <option value="LI">ლიხტენშტეინი</option>
+        <option value="MG">მადაგასკარი</option>
+        <option value="MU">მავრიკი</option>
+        <option value="MR">მავრიტანია</option>
+        <option value="MW">მალავი</option>
+        <option value="MY">მალაიზია</option>
+        <option value="MV">მალდივები</option>
+        <option value="ML">მალი</option>
+        <option value="MT">მალტა</option>
+        <option value="MA">მაროკო</option>
+        <option value="MH">მარშალის კუნძულები</option>
+        <option value="MX">მექსიკა</option>
+        <option value="MM">მიანმარ</option>
+        <option value="FM">მიკრონეზია</option>
+        <option value="MZ">მოზამბიკი</option>
+        <option value="MD">მოლდოვა</option>
+        <option value="MC">მონაკო</option>
+        <option value="MN">მონღოლეთი</option>
+    </select> <br> <br>
+
+    <label for="phone"></label>
+    <input type="tel" name="phone" id="phone" placeholder="ტელეფონის ნომერი" required> <br> <br>
+    <input type="text" name="piradin" id="piradin" placeholder="პირადი ნომერი"required> <br> <br>
+    <input type="email" name="mail" id="mail" placeholder="იმეილი"required> <br> <br>
+    <label style="color: white;" for="promo">ვადასტურებ რომ ვარ 18 წლის ან მეტის</label>
+    <input type="checkbox" name="promo" id="promo"required> <br> <br>
+    <label style="color: white;" for="promo1">თანხმობას ვაცხადებ პირდაპირი მარკეტინგის მიზნით მონაცემთა დამუშავებაზე </label>
+    <input type="checkbox" name="promo1" id="promo1"required> <br> <br>
+    <label style="color: white;" for="promo2">მომხმარებლის შექმნით თქვენ ადასტურებთ, რომ გაეცანით და ეთანხმებით ჩვენს</label>
+    <input type="checkbox" name="promo2" id="promo2" required> <br> <br>
+
+    <button style="width: 100px; height: 60px; background-color: #189541;">რეგისტრაცია</button>
+
+</form>
+
+</body>
+</html>
